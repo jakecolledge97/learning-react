@@ -1,21 +1,17 @@
 import './App.css';
+import Navbar from './Navbar';
 
 function App() {
+  const title = 'Welcome to the new blog';
+  const likes = 50;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <div className='content'>
+        <h1>{title}</h1>
+        <p>Liked {likes} times.</p>
+      </div>
     </div>
   );
 }
