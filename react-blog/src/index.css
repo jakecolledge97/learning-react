@@ -38,3 +38,9 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+a.new-blog{
+  color: white;
+  background-color: #74c26c;
+  border-radius: 8px;
+}
